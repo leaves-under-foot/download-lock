@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Download Lock",
+    "version": "1.0",
+
+    "description": "Prevents all downloads",
+
+    "icons": {
+        "98": "icon.svg"
+    },
+
+    "permissions": [
+      "downloads"
+    ],
+
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
